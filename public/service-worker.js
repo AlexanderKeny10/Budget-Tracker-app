@@ -19,6 +19,7 @@ const FILES_TO_CACHE = [
     './icons/icon-512x512.png'
 ];
 
+// Install the service worker
 self.addEventListener('install', function (e) {
     e.waitUntil(
         caches.open(CACHE_NAME).then(function (cache) {
@@ -28,6 +29,7 @@ self.addEventListener('install', function (e) {
     );
 });
 
+// Activate the service worker and remove old data from the cache
 self.addEventListener('activate', function (e) {
     e.waitUntil(
         caches.keys().then(function (keyList) {
@@ -48,6 +50,7 @@ self.addEventListener('activate', function (e) {
     );
 });
 
+// Intercept fetch requests
 self.addEventListener('fetch', function (e) {
     console.log('fetch request : ' + e.request.url);
     e.respondWith(
