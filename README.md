@@ -29,6 +29,9 @@ IndexedDB and the Cache API are used to enable offline functionality. The app ca
 
 ![Posted Transactions when back Online](./assets/images/Posted-transactions-SS.jpg)
 
+#### Cached Data
+
+![Cached Data](./assets/images/Data-Cache-SS.jpg)
 
 
 ## Installation
