@@ -8,11 +8,28 @@ The user may add and subtract transactions to their transaction history are upda
 IndexedDB and the Cache API are used to enable offline functionality. The app can be installed on your desktop or mobile device.
 
 ## Table of Contents
+ - [ScreenShots](#screen-shots)
  - [Installation](#installation)
- - [Tech Used](#tech-used)
+ - [Technologies](#technologies)
  - [Questions](#questions)
  - [Links](#links)
  - [License](#license)
+
+## ScreenShots
+
+#### Online Traker with Entries
+
+![Online Traker with Entries](./assets/images/Online-Traker-Entries-SS.jpg)
+
+#### Offline Pending Entries IndexDB
+
+![Offline Pending Entries IndexDB](./assets/images/Offline-pending-SS.jpg)
+
+#### Posted Transactions when back Online
+
+![Posted Transactions when back Online](./assets/images/Posted-transactions-SS.jpg)
+
+
 
 ## Installation
 
