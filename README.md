@@ -58,7 +58,7 @@ IndexedDB and the Cache API are used to enable offline functionality. The app ca
 
 ## Links 
 
-- **[Github Repo](https://github.com/Aken00/Budget-Tracker-app)
+- **[Github Repo](https://github.com/AlexanderKeny10/Budget-Tracker-app)
 - **[Deployed App](https://budget-traker-app.herokuapp.com/)
 
 ## License  
